@@ -12,8 +12,6 @@ android_app_import {
     apk: "prebuilt/MiuiCamera.apk",
     overrides: [
         "Camera2",
-        "GoogleCamera",
-        "GoogleCameraGo",
     ],
     certificate: "platform",
     privileged: true,
